@@ -14,9 +14,8 @@
 /* nav section */
 
 nav {
-  /* width: 83%; */
-  width: 1600px;
-  height: 92px;
+  width: 71%;
+  max-width: 1140px;
   /* border: 1px solid red; */
   margin: 0px auto;
   display: flex;
@@ -29,15 +28,23 @@ nav .logo {
   height: 60px;
   margin-top: 16px;
   margin-bottom: 16px;
-  margin-left: 120px;
-  margin-right: 346px;
+  margin-left: 20px;
+  margin-right: 150px;
 }
 
-nav .menu {
+/* nav .menu {
   margin-right: 346px;
   display: flex;
+
   list-style-type: none;
   gap: 32px;
+  align-items: center;
+} */
+
+nav .menu {
+  display: flex;
+  list-style-type: none;
+  gap: 51px;
   align-items: center;
 }
 
@@ -53,7 +60,7 @@ nav .menu a:hover {
 }
 
 nav .btn {
-  margin-right: 120px;
+  margin-left: 100px;
   margin-top: 24px;
   margin-bottom: 24px;
   padding: 12.5px 16px;
@@ -72,8 +79,9 @@ nav .btn:hover {
 #banner {
   background-image: url(./assets/hero-bg.png);
   background-repeat: no-repeat;
-  width: 2042px;
-  height: 1363px;
+  background-size: contain;
+  width: 1580px;
+  height: 700px;
 
   display: block;
   text-align: center;
@@ -163,4 +171,47 @@ nav .btn:hover {
 .btn-bellow2:hover {
   background-color: black;
   cursor: pointer;
+}
+
+.cards-heading {
+  width: 1300px;
+  text-align: center;
+}
+
+.cards {
+  width: 1360px;
+  margin: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid rgb(153, 61, 61);
+  text-align: center;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.card img {
+  background-color: rgb(138, 37, 37);
+  border-radius: 15px;
+}
+
+#brain-section {
+  display: flex;
+  gap: 30px;
+}
+
+.brain-section-img {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.brain-section-para {
+  width: 500px;
+  margin-top: 70px;
+}
+
+.brain-section-para li {
+  list-style-type: none;
 }
