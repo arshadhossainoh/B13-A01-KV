@@ -57,6 +57,9 @@ nav .btn {
   margin-top: 24px;
   margin-bottom: 24px;
   padding: 12.5px 16px;
+  background-color: rgb(94, 143, 94);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
 }
 
 nav .btn:hover {
@@ -64,4 +67,100 @@ nav .btn:hover {
   cursor: pointer;
 }
 
-/* hero section */
+/* banner section */
+
+#banner {
+  background-image: url(./assets/hero-bg.png);
+  background-repeat: no-repeat;
+  width: 2042px;
+  height: 1363px;
+
+  display: block;
+  text-align: center;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; */
+}
+
+.banner-content {
+  width: 1360px;
+  height: 295px;
+  /* display: block;
+  align-items: center; */
+}
+
+.banner-content .btn-top {
+  margin-top: 154px;
+  margin-left: 565px;
+  margin-right: 565px;
+  width: 229px;
+  height: 35px;
+  font-size: 16px;
+  /* padding-top: 8px;
+  padding-bottom: 8px; */
+  border-radius: 20px;
+  color: #308868;
+}
+
+.btn-top:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.banner-heading h1 {
+  height: 168px;
+  width: 770px;
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 84px;
+  font-weight: 700;
+  margin: 16px 295px;
+  text-align: center;
+}
+
+.line1 {
+  color: white;
+}
+
+.line2 {
+  color: #308868;
+}
+
+.heading-para {
+  width: 1360px;
+  height: 60px;
+  color: white;
+  text-align: center;
+}
+
+.btn-bellow1 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 46px;
+  border-radius: 5px;
+  background-color: #308868;
+  color: white;
+}
+
+.btn-bellow1:hover {
+  background-color: aqua;
+  cursor: pointer;
+}
+.btn-bellow2 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 46px;
+  border-radius: 5px;
+  background-color: none;
+  color: white;
+  background-color: rgb(68, 68, 107);
+}
+
+.btn-bellow2:hover {
+  background-color: black;
+  cursor: pointer;
+}
