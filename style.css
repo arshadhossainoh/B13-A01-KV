@@ -203,15 +203,68 @@ nav .btn:hover {
 }
 
 .brain-section-img {
+  width: 300px;
+  height: auto;
   margin-top: 20px;
-  margin-right: 20px;
+
+  margin-left: 40px;
 }
 
 .brain-section-para {
   width: 500px;
   margin-top: 70px;
+  margin-left: 300px;
 }
 
 .brain-section-para li {
   list-style-type: none;
+}
+
+.early-bird {
+  width: 900px;
+  text-align: center;
+  border: 1px solid gray;
+  margin-top: 30px;
+  margin-left: 300px;
+  margin-right: 200px;
+  background-color: rgb(247, 246, 242, 1);
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+.early-btn {
+  color: white;
+  background-color: #308868;
+  padding: 10px;
+  text-align: center;
+}
+
+.early-btn:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.footer-container {
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+  /* border: 1px solid red; */
+  background-color: rgb(84, 118, 131);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .logo {
+  margin-left: 50px;
+}
+.social-links {
+  margin-right: 70px;
+}
+
+.footer-note {
+  text-align: center;
+  background-color: rgb(84, 118, 131);
 }
